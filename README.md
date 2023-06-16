@@ -1,18 +1,36 @@
-# Salesforce DX Project: Next Steps
+# Salesforce Test Project
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+## 概要
 
-## How Do You Plan to Deploy Your Changes?
+このプロジェクトは、SalesforceのApexコードの具体的な使い方を学ぶためのものです。Apexは、Salesforceのクラウド上で動作する強力なプログラミング言語であり、このプロジェクトを通じてその基本的な概念と使用方法を理解することができます。
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+## 特徴
 
-## Configure Your Salesforce DX Project
+- Apexの基本的な構文と概念の学習
+- Salesforceのデータベースとのインタラクションの学習
+- 実際のビジネスロジックの実装例の提供
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+## 必要条件
 
-## Read All About It
+- Salesforce開発者アカウント
+- Salesforce DX CLI
+- Apex開発環境（例：Visual Studio Code with Salesforce Extension Pack）
 
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+## セットアップ
+
+1. Salesforce開発者アカウントを作成します。
+2. Salesforce DX CLIをインストールします。
+3. このリポジトリをクローンします。
+4. Salesforce DXを使用してプロジェクトをSalesforce組織にプッシュします。
+
+## 使用方法
+
+各Apexクラスとトリガーは、特定のビジネスロジックや概念を示すためのものです。それぞれのコードを読み、コメントを参照して理解を深めてください。
+
+## 貢献
+
+プロジェクトへの貢献は大歓迎です。バグ報告、新機能の提案、プルリクエストなど、どのような形でも構いません。
+
+## ライセンス
+
+このプロジェクトはMITライセンスのもとで公開されています。
