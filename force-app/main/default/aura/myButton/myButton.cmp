@@ -1,0 +1,3 @@
+<aura:component>
+    <lightning:button label="My Button" onclick="{!c.handleClick}"/>
+</aura:component>	
