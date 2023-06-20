@@ -1,3 +1,12 @@
-<aura:component>
-    <lightning:button label="My Button" onclick="{!c.handleClick}"/>
+<aura:component implements="flexipage:availableForAllPageTypes,flexipage:availableForRecordHome">
+
+    <!-- <lightning:button label="My Button" onclick="{!c.handleClick}" /> -->
+    <lightning:button label="My Button" onclick="{!c.handleClick}" variant="brand" />
+
+    <div class="slds-box slds-theme_default">
+        <button class="slds-button slds-button_brand">Click me</button>
+    </div>
+    
 </aura:component>	
+
+
