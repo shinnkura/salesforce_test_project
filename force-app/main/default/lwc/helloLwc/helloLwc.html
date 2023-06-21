@@ -10,10 +10,18 @@
 </template> -->
 
 
-<template>
+<!-- <template>
     <ul>
         <template for:each={members} for:item="member" for:index="index">
             <li key={member.id}>{index}.{member.name}</li>
+        </template>
+    </ul>
+</template> -->
+
+<template>
+    <ul>
+        <template iterator:it={members}>
+            <li key={it.value.id}>{it.index}.{it.value.name}:{it.first}:{it.last}</li>
         </template>
     </ul>
 </template>
