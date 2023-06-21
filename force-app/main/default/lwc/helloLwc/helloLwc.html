@@ -1,4 +1,19 @@
-<template>
+<!-- <template>
     <p>hello {name}!</p>
     <div><input value={name} onkeyup={onNameChanged} /></div>
+</template> -->
+
+<!-- <template>
+    <input type="checkbox" onchange={onCheckboxChanged} />
+    <template if:true={isChecked}>表示</template>
+    <template if:false={isChecked}>非表示</template>
+</template> -->
+
+
+<template>
+    <ul>
+        <template for:each={members} for:item="member" for:index="index">
+            <li key={member.id}>{index}.{member.name}</li>
+        </template>
+    </ul>
 </template>
